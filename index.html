@@ -32,6 +32,14 @@
 		});
 		</script>
 
+		<script language="JavaScript">
+			browsername=navigator.appName;
+			if (browsername.indexOf("Netscape")!=-1) {
+				browsername="NS"
+				document.getElementByID('#netscape').style.opacity="1";
+			}
+		</script>
+
 	</head>
 
 	<body>
