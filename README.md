@@ -4,31 +4,31 @@
 
 Pages
 
-  -Why Computer Science
+  - Why Computer Science
 
-  -BTT 1DG
+  - BTT 1DG
 
-  -ICS 2DG
+  - ICS 2DG
 
-  -ICS 2O1
+  - ICS 2O1
 
-  -ICS 3U1
+  - ICS 3U1
 
-  -ICS 3C1
+  - ICS 3C1
 
-  -ICS 4U1
+  - ICS 4U1
 
-  -ICS 4C1
+  - ICS 4C1
 
-  -Resources
+  - Resources
 
-  -Opportunities
+  - Opportunities
 
-  -Gallery
+  - Gallery
 
 
 #####Other things
 
--Images
+- Images
 
 
