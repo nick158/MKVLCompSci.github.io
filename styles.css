@@ -43,6 +43,13 @@
 }
 .footer{
 	bottom:10px;
+	height:25px;
+}
+.col-sm-4{
+	width:30%;
+}
+.col-sm-push-1{
+	left:5%;
 }
 .footer > p{
 	position:absolute;
