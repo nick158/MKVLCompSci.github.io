@@ -49,6 +49,7 @@
 	right:15%;
 }
 .footer > a{
+	position:absolute;
 	left:15%;
 }
 /*.carousel-inner > .item > img{
