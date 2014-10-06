@@ -60,12 +60,36 @@
 	left:15%;
 }
 
+.margin7{
+	margin-left:7px;
+}
 .hover{
 	opacity:0.6;
+	-webkit-transition: opacity 0.4s;
+	-moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    transition: color 0.4s;
+    cursor:default;
+}
+
+.green{
 	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
     transition: all 0.4s;  
 }
-.green{
+.red{
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+    transition: all 0.4s;  
+}
+.yellow{
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+    transition: all 0.4s;  
+}
+.blue{
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
     transition: all 0.4s;  
@@ -75,6 +99,24 @@
 	-moz-transition: all 0.4s;
     transition: all 0.4s;  
     color: #14A168;
+}
+.red:hover{
+	opacity:1;
+	color:#E96858;
+	-webkit-transition: all 0.4s;
+    transition: all 0.4s;  
+}
+.blue:hover{
+	opacity:1;
+	color:#3AB0E2;
+	-webkit-transition: all 0.4s;
+    transition: all 0.4s;  
+}
+.yellow:hover{
+	opacity:1;
+	color:#F7D861;
+	-webkit-transition: all 0.4s;
+    transition: all 0.4s;  
 }
 /*.carousel-inner > .item > img{
 	max-height:500px;
