@@ -5,6 +5,7 @@
 .qs{
 	font-family: 'Quicksand', sans-serif;
 }
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -18,10 +19,25 @@
   src: local('Quicksand Regular'), local('Quicksand-Regular'), url(http://fonts.gstatic.com/s/quicksand/v5/sKd0EMYPAh5PYCRKSryvWz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
 
+@media (max-width: 974px) {
+	.colfix {
+		border-left: 0px;
+		border-top: 1px solid #eee;
+	}
+}
+@media (min-width: 975px) {
+	.colfix {
+		border-left: 1px solid #eee;
+		margin-top:25px;
+	}
+}
+
 .shadow{
 	box-shadow: 5px 5px 5px #888888;
 }
-
+.fix{
+	margin-top:50px;
+}
 .content{
 	margin-top:50px;
 	text-align: center;
@@ -121,7 +137,10 @@
 	-moz-transition: all 0.4s;
     transition: all 0.4s;  
 }
-
+.callout{
+	float:left; 
+	color:#428BCA;
+}
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
@@ -129,7 +148,7 @@
     border-left-width: 5px;
     border-radius: 3px;
 }
-.bs-callout h4 {
+.bs-callout h2 {
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -145,37 +164,37 @@
 .bs-callout-default {
     border-left-color: #777;
 }
-.bs-callout-default h4 {
+.bs-callout-default h2 {
     color: #777;
 }
 .bs-callout-primary {
     border-left-color: #428bca;
 }
-.bs-callout-primary h4 {
+.bs-callout-primary h2 {
     color: #428bca;
 }
 .bs-callout-success {
     border-left-color: #5cb85c;
 }
-.bs-callout-success h4 {
+.bs-callout-success h2 {
     color: #5cb85c;
 }
 .bs-callout-danger {
     border-left-color: #d9534f;
 }
-.bs-callout-danger h4 {
+.bs-callout-danger h2 {
     color: #d9534f;
 }
 .bs-callout-warning {
     border-left-color: #f0ad4e;
 }
-.bs-callout-warning h4 {
+.bs-callout-warning h2 {
     color: #f0ad4e;
 }
 .bs-callout-info {
     border-left-color: #5bc0de;
 }
-.bs-callout-info h4 {
+.bs-callout-info h2 {
     color: #5bc0de;
 }
 
