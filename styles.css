@@ -5,6 +5,7 @@
 .qs{
 	font-family: 'Quicksand', sans-serif;
 }
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -16,6 +17,19 @@
   font-style: normal;
   font-weight: 400;
   src: local('Quicksand Regular'), local('Quicksand-Regular'), url(http://fonts.gstatic.com/s/quicksand/v5/sKd0EMYPAh5PYCRKSryvWz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@media (max-width: 974px) {
+	.colfix {
+		border-left: 0px;
+		border-top: 1px solid #eee;
+	}
+}
+@media (min-width: 975px) {
+	.colfix {
+		border-left: 1px solid #eee;
+		margin-top:25px;
+	}
 }
 
 .shadow{
