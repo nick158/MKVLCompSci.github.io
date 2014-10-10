@@ -119,21 +119,21 @@
     transition: all 0.4s;  
     color: #14A168;
 }
-.red:hover{
+.red:hover, .red:active, .red:focus{
 	opacity:1;
 	color:#E96858;
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
     transition: all 0.4s;  
 }
-.blue:hover{
+.blue:hover, .blue:active, .blue:focus{
 	opacity:1;
 	color:#3AB0E2;
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
     transition: all 0.4s;  
 }
-.yellow:hover{
+.yellow:hover, .yellow:active, .yellow:focus{
 	opacity:1;
 	color:#F7D861;
 	-webkit-transition: all 0.4s;
