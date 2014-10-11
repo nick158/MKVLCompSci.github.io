@@ -81,13 +81,13 @@
 }
 .hover{
 	opacity:0.6;
+    cursor:default;
 	-webkit-transition: opacity 0.4s;
 	-moz-transition: opacity 0.4s;
     transition: opacity 0.4s;
     -webkit-transition: color 0.4s;
     -moz-transition: color 0.4s;
     transition: color 0.4s;
-    cursor:default;
 }
 
 .green{
@@ -111,10 +111,11 @@
     transition: all 0.4s;  
 }
 .green:hover,.green:active,.green:focus{
+	color: #14A168;
+    opacity:1;
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
     transition: all 0.4s;  
-    color: #14A168;
 }
 .red:hover{
 	opacity:1;
