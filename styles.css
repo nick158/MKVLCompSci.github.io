@@ -118,6 +118,7 @@
 	-moz-transition: all 0.4s;
     transition: all 0.4s;  
     color: #14A168;
+    opacity:1;
 }
 .red:hover, .red:active, .red:focus{
 	opacity:1;
