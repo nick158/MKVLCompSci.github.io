@@ -32,6 +32,11 @@
 		  });
 		});
 		</script>
+		<script>
+		$(function() {
+			$("a[href^='http://']").attr("target","_blank");
+		});
+		</script>
 
 		<script language="JavaScript">
 			browsername=navigator.appName;
@@ -45,99 +50,85 @@
 
 	<body>
 
-		<nav class="navbar navbar-default" role="navigation">
-			<div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-			        	<span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				    </button>
-			        
-			        <a class="navbar-brand" href="index.html">Markville Computer Science</a>
-			    
-			    </div>
+		<div class="navbar-wrapper">
+		    <div class="container">
+		        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		            <div class="container">
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				                <span class="sr-only">Toggle navigation</span>
+				                <span class="icon-bar"></span>
+				                <span class="icon-bar"></span>
+				                <span class="icon-bar"></span>
+			                </button>
+			                <a class="navbar-brand" href="index.html">Markville CompSci</a>
+			            </div>
+			            <div class="navbar-collapse collapse">
+			                <ul class="nav navbar-nav">
+				        	<li class=""><a href="index.html">Home</a></li>
+				        	<li><a href="resources.html">Resources</a></li>
+				        	<li><a href="opportunities.html">Opportunities</a></li>
+				        	<li class="dropdown">
+						        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery <span class="caret"></span></a>
 
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="navbar-collapse">
-			        <ul class="nav navbar-nav">
-			        	<li class="active"><a href="index.html">Home</a></li>
-			        	<li><a href="resources.html">Resources</a></li>
-			        	<li><a href="opportunities.html">Opportunities</a></li>
-			        	<li class="dropdown">
-				            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <span class="caret"></span></a>
+					          	<ul class="dropdown-menu" role="menu">
+						          	<li><a href="gallery.html#">Robotics</a></li>
+						          	<li class="divider"></li>
+						            <li><a href="#">HTML</a></li>
+						            <li><a href="#">Turing</a></li>
+						            <li><a href="#">Java</a></li>
+						            <li><a href="#">Android</a></li>
+						        </ul>
+					        </li>
 
-					        <ul class="dropdown-menu" role="menu">
-					            <li><a href="#">BTT1DG</a></li>
-					            <li><a href="#">ICS2DG</a></li>
-					            <li><a href="#">ICS2O1</a></li>
-					            <li><a href="#">ICS3U1</a></li>
-					            <li><a href="#">ICS3C1</a></li>
-					            <li><a href="#">ICS4U1</a></li>
-					            <li><a href="#">ICS4C1</a></li>
-					            <li class="divider"></li>
-					            <li><a href="courses.html">View all &raquo;</a></li>
-					        </ul>
-				        </li>
-				        <li class="dropdown">
-				            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery <span class="caret"></span></a>
+			                </ul>
+			                <ul class="nav navbar-nav navbar-right">
+			             		<li class="dropdown active">
+				                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <span class="caret"></span></a>
+						          	<ul class="dropdown-menu" role="menu">
+							            <li><a href="courses/btt1dg.html">BTT1DG</a></li>
+							            <li><a href="courses/ics2dg.html">ICS2DG</a></li>
+							            <li><a href="courses/ics2O1.html">ICS2O1</a></li>
+							            <li><a href="courses/ics3u1.html">ICS3U1</a></li>
+							            <li><a href="courses/ics3c1.html">ICS3C1</a></li>
+							            <li><a href="courses/ics4u1.html">ICS4U1</a></li>
+							            <li><a href="courses/ics4c1.html">ICS4C1</a></li>
+							            <li class="divider"></li>
+							            <li><a href="courses.html">View all &raquo;</a></li>
+							        </ul>
+				                </li>
 
-				          	<ul class="dropdown-menu" role="menu">
-					          	<li><a href="#">Robotics</a></li>
-					            <li><a href="#">HTML</a></li>
-					            <li><a href="#">Turing</a></li>
-					            <li><a href="#">Java</a></li>
-					            <li><a href="#">Android</a></li>
-					            <li class="divider"></li>
-					            <li><a href="gallery.html">View All &raquo;</a></li>
-					        </ul>
-				        </li>
-			        </ul>
-
-			      	<ul class="nav navbar-nav navbar-right">
-				        <li><a href="http://schools.yrdsb.ca/markville.ss/teacher/computers/computers.htm">CompSci Original Site</a></li>
-				        <li><a href="compsci.html">Why Computer Science?</a></li>
-			      	</ul>
-			    </div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
+			                </ul>
+			            </div>
+			        </div>
+		        </div>
+		      </div>
+		</div>
 
 		<!-- END NAV -->
 
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		    <ol class="carousel-indicators">
-			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-		    </ol>
+		<div class="center content fix">
+			<div class="container-fluid">
+				<div class="page-header">
+					<h1 style="text-align:middle;">Resources <small> Turing</small></h1>
+				</div>
+				<div class="container">
+				<p>Download the Turing environment and documentation for FREE from: <a href="http://compsci.ca/holtsoft">compsci.ca</a></p><br>
+				<p>These files are zipped files and must be extracted. You can download a FREE archive (zip) manager from <a href="http://sourceforge.net/projects/sevenzip/">Sourceforge</a></p><br>
+				<p>You may also want to download the free books: <br> <a href="http://compsci.ca/holtsoft/IPT.pdf">Introduction to Programming in Turing First Edition, Second Printing</a> - An introduction to the turing programming langue by J. N. P. Hume. ISBN: 0-921598-42-4 </p><br>
+				<p><a href="http://compsci.ca/holtsoft/OOTRef.pdf">Object Oriented Turing Reference Manual Seventh Edition Version 1.0 </a>Reference manual for the Turing programming langue by R.C. Holt and Tom West. ISBN 0-921598-35-1</p>
+				</div>
+			</div>
 
-		  <!-- Wrapper for slides -->
-		    <div class="carousel-inner">
-		    	<div class="item active">
-		        	<img src="..." alt="...">
-		      		<div class="carousel-caption">
-
-		     		</div>
-		    	</div>
-			    <div class="item">
-			      	<img src="..." alt="...">
-			      	<div class="carousel-caption">
-
-			    </div>
+			<!-- START FOOTER -->
+			<br><br>
+	        <hr class="divider"></hr>    
+		    <div class="footer">
+		    	<p class="os"> &copy; 2014 Markville Computer Science</p> 
+		    	<a href="https://twitter.com/yrdsb" class="twitter-follow-button" data-show-count="false">Follow @yrdsb</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+				</script>
 		    </div>
-
-		</div>
-
-		  <!-- Controls -->
-		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-		    <span class="glyphicon glyphicon-chevron-left"></span>
-		</a>
-		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-		    <span class="glyphicon glyphicon-chevron-right"></span>
-		</a>
 		</div>
 	</body>
 </html>
