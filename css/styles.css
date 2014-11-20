@@ -48,7 +48,9 @@ a:hover{
 		margin-top:25px;
 	}
 }
-
+.resources{
+	text-align:left;
+}
 .shadow{
 	box-shadow: 5px 5px 5px #888888;
 }
@@ -156,6 +158,7 @@ a:hover{
 	-moz-transition: all 0.4s;
     transition: all 0.4s;  
 }
+
 .callout{
 	float:left; 
 	color:#428BCA;
