@@ -27,10 +27,17 @@ a.main, a.main:visited, a.main:link, a.main:active{
 	-moz-transition: all 0.4s;
 }
 a.main:hover{
+	text-decoration:none !important;
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	color:#000;
-	text-decoration:none !important;
+}
+.ul{
+	margin-top:-10px;
+	margin-left:10px;
+	height:2px;
+	width:85px;
+	background-color:#fff;
 }
 @font-face {
   font-family: 'Open Sans';
