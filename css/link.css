@@ -1,0 +1,12 @@
+a, a:visited, a:link, a:active{
+	text-decoration:none !important;
+	color:#428BCA;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+a:hover{
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	color:rgba(23, 48, 71, 1);
+	text-decoration:none !important;
+}
